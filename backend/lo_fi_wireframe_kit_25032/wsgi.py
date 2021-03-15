@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'lo_fi_wireframe_kit_25032.settings')
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "lo_fi_wireframe_kit_25032.settings")
 
 application = get_wsgi_application()
